@@ -1,0 +1,6 @@
+w1=input()
+w2=input()
+a=w2[:len(w2)]
+b=w1[len(w2):]
+c="*"* len(w2)+b
+print(c)

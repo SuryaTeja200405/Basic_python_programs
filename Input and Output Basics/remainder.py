@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+d=int(a/b)
+c=a-(b*d)
+print(c)
