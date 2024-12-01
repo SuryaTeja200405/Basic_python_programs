@@ -1,0 +1,7 @@
+a=input()
+b=int(a)
+c=(50< b <100)
+d=int(a[0])
+f=(d==7)
+e=(c or f)
+print(e)

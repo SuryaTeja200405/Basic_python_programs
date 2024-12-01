@@ -1,0 +1,6 @@
+a=input()
+b=int(a[0])
+c=int(a[1])
+d=int(a[2])
+e=((b==c) and (b==d) and (c==d))
+print(e)

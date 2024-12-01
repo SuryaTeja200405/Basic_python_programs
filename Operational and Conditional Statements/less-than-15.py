@@ -1,0 +1,8 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=(a<15)
+e=(b<15)
+f=(c<15)
+g=(d or e or f)
+print(g)

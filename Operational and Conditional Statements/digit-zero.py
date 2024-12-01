@@ -1,0 +1,9 @@
+a=input()
+b=a[0]
+c=a[1]
+d=a[2]
+b=int(b)
+c=int(c)
+d=int(d)
+e=((b==0)or(c==0)or(d==0))
+print(e)

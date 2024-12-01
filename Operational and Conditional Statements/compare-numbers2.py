@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+c=(a>0) and (b>0)
+d=(a<70) and (b<70)
+e=(c or d)
+print(e)

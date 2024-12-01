@@ -1,0 +1,8 @@
+a=input()
+b=int(a[0])
+c=int(a[1])
+d=int(a[2])
+greater_than_7=((b>7)and(c>7)and(d>7))
+product_30=(((b*c)<=30)and((c*d)<=30)and((b*d)<=30))
+result=(greater_than_7 or product_30)
+print(result)

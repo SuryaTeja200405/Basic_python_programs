@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+c=((a>0) and (b>0))
+d=((a>5)or(b>5))
+e=(c and d)
+print(e)
