@@ -1,6 +1,0 @@
-a=int(input())
-b=int(input())
-Q=int(a/b)
-R=(a%b)
-print(Q)
-print(R)
