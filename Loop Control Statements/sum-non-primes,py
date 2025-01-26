@@ -1,0 +1,13 @@
+N=int(input())
+sum_non=0 
+for i in range(N):
+     num=int(input())
+     is_Prime=True
+     for j in range(2,num):
+         if num%j==0:
+             is_Prime=False
+             break
+     if not is_Prime:
+        sum_non+=num 
+print(sum_non)        
+     
